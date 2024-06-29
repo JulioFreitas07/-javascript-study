@@ -1,0 +1,6 @@
+o que é ECMAScript?
+
+Qual a diferença de linguagem compilada e interpretada?
+
+Qual é a diferença entre powershell e bash?
+
