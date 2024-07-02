@@ -4,3 +4,20 @@ Qual a diferença de linguagem compilada e interpretada?
 
 Qual é a diferença entre powershell e bash?
 
+Por que usamos o nome assets? o que tem nessa pasta?
+> Colocamos em assets tudo o que não é html, é uma arquitetura básica para 
+  organizar melhor o código.
+
+O que é index.html ?
+> Arquivo raiz principal do html no projeto.
+
+como importar css?
+> <link rel = "stylesheet" href="caminho do documento css"/>
+
+como importar o script js?
+> <script src="caminho do script"></script>
+
+por que fecho um mas não fecho outro?
+> por que no caso do <script></script>, eu posso inserir conteúdos dentro, mas no <link/> não.
+
+
