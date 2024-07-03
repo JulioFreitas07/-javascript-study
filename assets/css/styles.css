@@ -1,3 +1,12 @@
 body{
     color: grey 
 }
+
+.hide{
+    visibility: hidden;
+  }
+
+.reveal
+{
+    visibility: visible;
+}
