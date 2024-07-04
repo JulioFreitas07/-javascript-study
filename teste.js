@@ -22,3 +22,9 @@ if (beguines)
     }
 
 console.log(julio, stuart);
+
+bilbo = 'grappling';
+
+console.log(bilbo)
+
+var bilbo;

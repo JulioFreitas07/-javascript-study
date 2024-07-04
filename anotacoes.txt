@@ -29,4 +29,16 @@ o sinal de negação é o !
 o E lógico é &&
 o OU lógico são duas ||
 
-o ternário é condição ? severdadeiro : sefalso;
+o ternário é; condição ? severdadeiro : sefalso;
+
+let e var são palavras reservadas do javascript para representar variáveis. No entanto,
+var tem escopo global, portanto ao declará-la no arquivo, se você declara 
+a var dentro de alguma função depois, o código aceita a declaração novamente.
+Já o let, é restrito ao bloco no qual foi declarado, por exemplo, se você declara o let
+dentro de um bloco condicional, o let só pode ser usado dentro de bloco condicional e não pode
+ser chamado fora daquele bloco.
+
+além do mais hoisting foi algo diferente de se aprender, o fato de poder atribuir uma variável
+antes de declkará-la é muito diferente mesmo!
+
+
