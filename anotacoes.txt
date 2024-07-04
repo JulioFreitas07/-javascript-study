@@ -20,4 +20,13 @@ como importar o script js?
 por que fecho um mas não fecho outro?
 > por que no caso do <script></script>, eu posso inserir conteúdos dentro, mas no <link/> não.
 
+o sinal == no javascript compara somente o conteúdo, e não os tipos.
+Para comparar os tipos e conteúdo, usa-se ===
+Da mesmo forma do final de diferente != que só verifica se os conteúdo são diferentes
+e não verifica os tipos também. Pra isso, usa-se o sinal !==
 
+o sinal de negação é o !
+o E lógico é &&
+o OU lógico são duas ||
+
+o ternário é condição ? severdadeiro : sefalso;
