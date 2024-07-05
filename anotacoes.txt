@@ -39,6 +39,33 @@ dentro de um bloco condicional, o let só pode ser usado dentro de bloco condici
 ser chamado fora daquele bloco.
 
 além do mais hoisting foi algo diferente de se aprender, o fato de poder atribuir uma variável
-antes de declkará-la é muito diferente mesmo!
+antes de declará-la é muito diferente mesmo!
 
+constantes são declaradas usando snak upper case, e não fazem hoisting.
 
+o hoisting só é possível ser feito com var. Com const e let não é possível. Let ainda posso reatribuir
+valores, mas com const não.
+
+temos o método typeof para dizer o tipo de dado que estamos vendo. Os tipos
+primitivos de dados no javascript são: numbers, strings e boolean. E os tipos
+compostos são objects e arrays. Também dentro dos primitivos temos o null e 
+undefined
+
+tenho alguns métodos interessantes nativos de string como: .replace, .split, .includes
+, .length
+
+temos a lib Math, duas ferramentas úteis nesta lib é o Math.floor que arredonda pra baixo
+e a Math.ceil() que arredonda pra cima.
+
+também posso usar o toString() para retornar uma variável como string
+
+alguns métodos interessantes que tenho para usar com arrays no javascript:
+.push(valores) -> para adicionar elementos ao final do array
+.pop() -> para tirar elementos do array 'começa sempre do último'
+.shift() -> tira elementos  do array começando pelo início do array
+.unshift(valores) -> para adicionar elementos ao inicio do array 
+.every(item => item === ValorASerComparado) -> compara se todos os itens do array
+são iguais ao ValorASerComparado
+.include(valor) -> saber se tem o valor dentro do array
+.some(item => item === ValorASerComparado) -> verifica se no array existem pelo menos
+algum valor igual ao ValorASerComparado

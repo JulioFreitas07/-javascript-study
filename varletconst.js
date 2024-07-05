@@ -11,7 +11,8 @@ var c = soma(2, 6);
 
 console.log(c);*/
 
-var julio = 22;
+
+/*var julio = 22;
 var beguines = 'bilbor';
 let stuart = 'litow';
 
@@ -27,4 +28,10 @@ bilbo = 'grappling';
 
 console.log(bilbo)
 
-var bilbo;
+var bilbo;*/
+
+const LILO_STIVE = 'carlos'; //nome tá em snack upper case
+
+console.log(LILO_STIVE);
+
+
