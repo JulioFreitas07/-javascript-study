@@ -69,3 +69,42 @@ são iguais ao ValorASerComparado
 .include(valor) -> saber se tem o valor dentro do array
 .some(item => item === ValorASerComparado) -> verifica se no array existem pelo menos
 algum valor igual ao ValorASerComparado
+
+em objetos tenho chave e valor. Dois métodos de usos valiosos são o Object.values(nomedoobjeto)
+e o Object.keys(nome do objeto)
+
+
+TRATAMENTOS DE ERROS E TIPOS DE ERROS: 
+
+ECMAScript Error
+Os erros de ECMAScript (também conhecidos como JavaScript errors) são definidos pela especificação ECMAScript 
+e ocorrem quando há problemas na execução do código JavaScript. Eles são parte integrante da linguagem e são gerados
+ em situações comuns, como problemas de sintaxe, referências indefinidas, ou operações matemáticas inválidas. 
+ Alguns exemplos de erros ECMAScript são:
+
+SyntaxError: Erro de sintaxe no código.
+TypeError: Operação realizada em um valor de tipo inadequado.
+ReferenceError: Tentativa de acessar uma variável que não está definida.
+RangeError: Um número está fora de seu intervalo válido.
+EvalError: Problema com a função eval() (pouco comum).
+
+
+DOMException
+DOMException é uma classe de erros que está relacionada ao Document Object Model (DOM) e às APIs da web. Esses erros 
+são lançados quando há um problema ao interagir com o DOM ou ao utilizar APIs do navegador, como operações inválidas
+ em elementos HTML ou manipulação incorreta de objetos de API. Exemplos comuns de DOMException são:
+
+NotFoundError: Tentativa de acessar um nó que não existe no DOM.
+HierarchyRequestError: Inserção de um nó em uma posição que não é permitida dentro do DOM.
+WrongDocumentError: Tentativa de usar um nó em um documento diferente do documento onde foi criado.
+InvalidCharacterError: Uso de um caractere inválido em uma string que está sendo passada para uma API DOM.
+SecurityError: Ação bloqueada por razões de segurança, como tentativas de acessar recursos de diferentes origens 
+sem permissão adequada.
+Contexto de Uso
+ECMAScript errors são encontrados em qualquer código JavaScript e geralmente indicam problemas na lógica ou 
+sintaxe do programa. Eles são independentes do contexto do navegador e podem ocorrer em ambientes como Node.js
+ ou qualquer outro runtime que suporte JavaScript.
+
+DOMException ocorre exclusivamente no contexto da web, quando o JavaScript está interagindo com o DOM ou outras APIs
+ do navegador. Esses erros são específicos ao ambiente do navegador e não seriam encontrados em contextos onde
+  o DOM não está presente (por exemplo, em scripts Node.js).
