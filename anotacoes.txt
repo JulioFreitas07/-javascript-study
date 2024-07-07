@@ -108,3 +108,8 @@ sintaxe do programa. Eles são independentes do contexto do navegador e podem oc
 DOMException ocorre exclusivamente no contexto da web, quando o JavaScript está interagindo com o DOM ou outras APIs
  do navegador. Esses erros são específicos ao ambiente do navegador e não seriam encontrados em contextos onde
   o DOM não está presente (por exemplo, em scripts Node.js).
+
+  o throw para a aplicação na hora em que é chamado
+  o try catch nós usamos para lidar com o erro, então não é só parar, posso usar o catch para 
+  fazer a função de input ser chamada novamente com um aviso por exemplo, ou para
+  gerar uma mensagem de erro.
